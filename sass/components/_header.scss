@@ -1,0 +1,40 @@
+.header {
+    background-image: linear-gradient(to right, rgba($color-black, .8), rgba($color-black, .3)), url("./img/charts.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+
+    &__img {
+        position: absolute;
+        width: 8rem;
+        top: 2rem;
+        right: 1rem;
+    }
+
+    &__box {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__text {
+        color: $color-white;
+        animation: moveInLeft 1.5s ease-in-out;
+
+        span {
+            width: 100%;
+            display: block;
+            font-size: 6rem;
+            font-weight: 300;
+            letter-spacing: 6px;
+
+            &:last-child {
+                font-style: italic;
+                margin-top: 1rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}

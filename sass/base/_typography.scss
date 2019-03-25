@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.heading-secondary {
+    color: $color-primary;
+    font-size: 3.5rem;
+
+    span {
+        display: block;
+        color: $color-grey-light;
+        font-size: 3rem;
+    }
+}
+
+.heading-tertiary {
+    color: $color-grey-dark;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    width: 31rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}

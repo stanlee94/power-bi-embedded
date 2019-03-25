@@ -1,0 +1,17 @@
+.embed-box {
+    border: 1px solid $color-grey-dark;
+    height: 27rem;
+    width: 100%;
+    background-color: rgba($color-primary-light, .8);
+    position: relative;
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $color-white;
+    }
+}
